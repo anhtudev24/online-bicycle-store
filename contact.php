@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/><!--Link icon-->
   <title>Hệ thống cửa hàng</title>
-  <link rel="stylesheet" href="CSS copy/reset.css">
-  <link rel="stylesheet" href="CSS copy/base.css">
-  <link rel="stylesheet" href="CSS copy/styles.css">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
   <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -32,7 +32,7 @@
         
         <!-- Logo -->
         <a href="index.php" class="header-logo">
-          <img src="Video/logo.png" alt="logo">
+          <img src="assets/images/logo.png" alt="logo">
         </a>
         
         <!-- Thanh điều hướng -->
@@ -126,7 +126,7 @@
       ></iframe>
     </div>
   </div>
-  <script src="JS/contact.js"></script>
+  <script src="assets/js/contact.js"></script>
 </div>
   <!-- Form ẩn/hiện -->
 <!-- Nút mở form -->
@@ -163,7 +163,7 @@
   <div class="footer-container">
     <!-- Cột 1: Logo và thông tin liên hệ -->
     <div class="footer-column">
-      <img src="Video/logo.png"  class="logo" >
+      <img src="assets/images/logo.png"  class="logo" >
       <p><i class="fa fa-map-marker"></i>Đại học Kiến Trúc, Hà Nội</p>
       <p><i class="fa fa-phone"></i> 0333666888</p>
       <p><i class="fa fa-envelope"></i> group3@hau.com</p>
@@ -202,11 +202,11 @@
     </div>
   </div>
 </footer>
-<script src="JS/search.js"></script>
-<script src="JS/active.js" defer></script>
-<script src="JS/cart.js"></script>
-<script src="JS/add-to-cart.js"></script>
-<script src="JS/form.js"></script>
+<script src="assets/js/search.js"></script>
+<script src="assets/js/active.js" defer></script>
+<script src="assets/js/cart.js"></script>
+<script src="assets/js/add-to-cart.js"></script>
+<script src="assets/js/form.js"></script>
 </form>
   </body>
 </html>

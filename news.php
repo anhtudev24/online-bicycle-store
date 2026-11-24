@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/><!--Link icon-->
   <title>BLUESOLIS BIKE</title>
-  <link rel="stylesheet" href="CSS copy/reset.css">
-  <link rel="stylesheet" href="CSS copy/base.css">
-  <link rel="stylesheet" href="CSS copy/styles.css">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
 <?php 
@@ -27,7 +27,7 @@
         
         <!-- Logo -->
         <a href="index.php" class="header-logo">
-          <img src="Video/logo.png" alt="logo">
+          <img src="assets/images/logo.png" alt="logo">
         </a>
         
         <!-- Thanh điều hướng -->
@@ -104,7 +104,7 @@
 
 
 <!-- Liên kết JS -->
-<script src="JS/form.js"></script>
+<script src="assets/js/form.js"></script>
     
     <div class="breadcrumb-wrapper">
             <nav class="breadcrumb-top">
@@ -118,7 +118,7 @@
             <div class="news-content">
               <div class="news-left">
                 <div class="news-item">
-                  <img src="Video/news1.jpg" alt="Tin 1" />
+                  <img src="assets/images/news1.jpg" alt="Tin 1" />
                   <div class="news-info">
                     <a href="news1.php"><h2 >Top 5 xe đạp thể thao chính hãng không thể bỏ qua</h2></a>
                     <div class="news-meta">
@@ -133,7 +133,7 @@
                 </div>
 
           <div class="news-item">
-            <img class="image1" src="Video/news5.jpg" alt="Tin 2" />
+            <img class="image1" src="assets/images/news5.jpg" alt="Tin 2" />
             <div class="news-info">
               <a href="news2.php"><h2>Hướng dẫn chọn xe đạp đường trường (road bike) cho người mới</h2></a>
               <div class="news-meta">
@@ -147,7 +147,7 @@
           </div>
 
           <div class="news-item">
-            <img src="Video/news4.jpg" alt="Tin 3" />
+            <img src="assets/images/news4.jpg" alt="Tin 3" />
             <div class="news-info">
               <a href="news1.php"><h2>Xe đạp Merida của nước nào? Chất lượng có tốt không?            </h2></a>
               <div class="news-meta">
@@ -160,7 +160,7 @@
           </div>
 
           <div class="news-item">
-            <img src="Video/news3.jpg" alt="Tin 4" />
+            <img src="assets/images/news3.jpg" alt="Tin 4" />
             <div class="news-info">
               <a href="news2.php"><h2>Top 4 xe đạp thể thao giá rẻ dưới 3 triệu chính hãng không thể bỏ qua</h2></a>
               <div class="news-meta">
@@ -173,7 +173,7 @@
           </div>
 
           <div class="news-item">
-            <img src="Video/news1.jpg" alt="Tin 5" />
+            <img src="assets/images/news1.jpg" alt="Tin 5" />
             <div class="news-info">
               <a href="news1.php"><h2>Cách sử dụng tay đề lắc. Top 5 xe đạp đua tay đề lắc giá rẻ bán chạy</h2></a>
               <div class="news-meta">
@@ -204,19 +204,19 @@
             <h3>TIN NỔI BẬT</h3>
             <ul>
               <li>
-                <img src="Video/news1.jpg" alt="Nổi bật 1" />
+                <img src="assets/images/news1.jpg" alt="Nổi bật 1" />
                 <span><a href ="news1.php">Top 5 xe đạp thể thao chính hãng không thể bỏ qua</span></a>
               </li>
               <li>
-                <img src="Video/news5.jpg" alt="Nổi bật 2" />
+                <img src="assets/images/news5.jpg" alt="Nổi bật 2" />
                 <span><a href ="news2.php">Hướng dẫn chọn xe đạp đường trường (road bike) cho người mới bắt đầu</span></a>
               </li>
               <li>
-                <img src="Video/news4.jpg" alt="Nổi bật 3" />
+                <img src="assets/images/news4.jpg" alt="Nổi bật 3" />
                 <span><a href ="news1.php">Xe đạp Merida của nước nào? Chất lượng có tốt không?</span></a>
               </li>
               <li>
-                <img src="Video/news3.jpg" alt="Nổi bật 4" />
+                <img src="assets/images/news3.jpg" alt="Nổi bật 4" />
                 <span><a href ="news2.php">Top 4 xe đạp thể thao giá rẻ dưới 3 triệu chính hãng không thể bỏ qua</span></a>
               </li>
             </ul> 
@@ -243,7 +243,7 @@
   <div class="footer-container">
     <!-- Cột 1: Logo và thông tin liên hệ -->
     <div class="footer-column">
-      <img src="Video/logo.png"  class="logo" >
+      <img src="assets/images/logo.png"  class="logo" >
       <p><i class="fa fa-map-marker"></i>Đại học Kiến Trúc, Hà Nội</p>
       <p><i class="fa fa-phone"></i> 0333666888</p>
       <p><i class="fa fa-envelope"></i> group3@hau.com</p>
@@ -282,11 +282,11 @@
     </div>
   </div>
 </footer>
-<script src="JS/active.js" defer></script>
-<script src="JS/search.js"></script>
-<script src="JS/cart.js"></script>
-<script src="JS/add-to-cart.js"></script>
-<script src="JS/form.js"></script>
+<script src="assets/js/active.js" defer></script>
+<script src="assets/js/search.js"></script>
+<script src="assets/js/cart.js"></script>
+<script src="assets/js/add-to-cart.js"></script>
+<script src="assets/js/form.js"></script>
 </form>
  
 </body>

@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/><!--Link icon-->
   <title>Cart</title>
-  <link rel="stylesheet" href="CSS copy/reset.css">
-  <link rel="stylesheet" href="CSS copy/base.css">
-  <link rel="stylesheet" href="CSS copy/styles.css">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
 
@@ -66,7 +66,7 @@
         
         <!-- Logo -->
         <a href="index.php" class="header-logo">
-          <img src="Video/logo.png" alt="logo">
+          <img src="assets/images/logo.png" alt="logo">
         </a>
         
         <!-- Thanh điều hướng -->
@@ -206,7 +206,7 @@
     <!-- Cột 1: Logo và thông tin liên hệ -->
     <div class="footer-column">
       <a href="index.php">
-        <img src="Video/logo.png" alt="EGA BIKE Logo" class="logo" />
+        <img src="assets/images/logo.png" alt="EGA BIKE Logo" class="logo" />
       </a>
       <p><i class="fa fa-map-marker"></i>Đại học Kiến Trúc, Tp.HN</p>
       <p><i class="fa fa-phone"></i> 0333666888</p>
@@ -247,14 +247,14 @@
   </div>
 </footer>
   </form>
-<script src="JS/cart.js"></script>
-<script src="JS/add-to-cart.js"></script>
-  <script src="JS/index.js"></script>
-  <script src="JS/search.js"></script>
-  <script src="JS/active.js" defer></script>
-  <script src="JS/form.js"></script>
-  <script src="JS/cartTop.js"></script>
-  <script src="JS/address.js"></script>
+<script src="assets/js/cart.js"></script>
+<script src="assets/js/add-to-cart.js"></script>
+  <script src="assets/js/index.js"></script>
+  <script src="assets/js/search.js"></script>
+  <script src="assets/js/active.js" defer></script>
+  <script src="assets/js/form.js"></script>
+  <script src="assets/js/cartTop.js"></script>
+  <script src="assets/js/address.js"></script>
 </body>
 </html>
 

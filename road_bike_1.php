@@ -12,10 +12,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="CSS copy/reset.css" />
-    <link rel="stylesheet" href="CSS copy/base.css" />
-    <link rel="stylesheet" href="CSS copy/styles.css" />
-    <script defer src="JS/script.js"></script>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script defer src="assets/js/script.js"></script>
 </head>
 <body>
 
@@ -45,7 +45,7 @@
         
         <!-- Logo -->
         <a href="index.php" class="header-logo">
-          <img src="Video/logo.png" alt="logo">
+          <img src="assets/images/logo.png" alt="logo">
         </a>
         
         <!-- Thanh điều hướng -->
@@ -128,13 +128,13 @@
     <div class="left">
       <!-- hình ảnh thu nhỏ -->
       <div class="thumbnails">
-        <img src="Video/ruby.webp" class="active" />
-        <img src="Video/ruby1.webp" />
-        <img src="Video/ruby2.jpg" />
+        <img src="assets/images/ruby.webp" class="active" />
+        <img src="assets/images/ruby1.webp" />
+        <img src="assets/images/ruby2.jpg" />
       </div>
       <!-- hình ảnh chính -->
       <div class="main-image">
-            <img src="img/<?php echo $hinhanh ?>" alt="Main Image"/>
+            <img src="assets/images/<?php echo $hinhanh ?>" alt="Main Image"/>
       </div>
     </div>
 
@@ -147,7 +147,7 @@
       data-price="11990000"
       data-old-price="15500000"
       data-discount="25"
-      data-image="Video/escape1.jpg">
+      data-image="assets/images/escape1.jpg">
       <h1 class="title"><?php echo $tenXe ?></h1>
 
     <!-- đánh giá sao -->
@@ -330,7 +330,7 @@
     <div class="product-card">
       <a href="road_bike_3.php" class="product-link">
         <div class="product-image">
-          <img src="Video/xedapnaughty.webp" alt="Xe đẹp Naughty">
+          <img src="assets/images/xedapnaughty.webp" alt="Xe đẹp Naughty">
         </div>
         <div class="product-brand">EGA BIKE</div>
         <div class="product-title">Xe đạp Naughty</div>
@@ -349,7 +349,7 @@
     <div class="product-card">
       <a href="road_bike_2.php" class="product-link">
         <div class="product-image">
-          <img src="Video/allez.webp" alt="Xe đạp đường trường Allez 2021">
+          <img src="assets/images/allez.webp" alt="Xe đạp đường trường Allez 2021">
         </div>
         <div class="product-brand">EGA BIKE</div>
         <div class="product-title">Xe đạp đường trường Allez 2021</div>
@@ -368,7 +368,7 @@
     <div class="product-card">
       <a href="mountain_bike_1.php" class="product-link">
         <div class="product-image">
-          <img src="Video/orbea.webp" alt="Xe đạp đường trường Orbea Vector Drop">
+          <img src="assets/images/orbea.webp" alt="Xe đạp đường trường Orbea Vector Drop">
         </div>
         <div class="product-brand">EGA BIKE</div>
         <div class="product-title">Xe đạp đường trường Orbea Vector Drop</div>
@@ -384,11 +384,11 @@
     </div> 
   </div>
 </div>
-<script src="JS/add-to-cart.js"></script>
-<script src="JS/search.js"></script>
-<script src="JS/cart.js"></script>
-<script src="JS/active.js" defer></script>
-<script src="JS/form.js"></script>
+<script src="assets/js/add-to-cart.js"></script>
+<script src="assets/js/search.js"></script>
+<script src="assets/js/cart.js"></script>
+<script src="assets/js/active.js" defer></script>
+<script src="assets/js/form.js"></script>
 
   </form>
 </body>
@@ -398,7 +398,7 @@
     <!-- Cột 1: Logo và thông tin liên hệ -->
     <div class="footer-column">
       <a href="index.php">
-        <img src="Video/logo.png" alt="EGA BIKE Logo" class="logo" />
+        <img src="assets/images/logo.png" alt="EGA BIKE Logo" class="logo" />
       </a>
       <p><i class="fa fa-map-marker"></i>Đại học Kiến Trúc, Tp.HN</p>
       <p><i class="fa fa-phone"></i> 0333666888</p>

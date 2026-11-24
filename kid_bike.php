@@ -12,10 +12,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="CSS copy/reset.css" />
-    <link rel="stylesheet" href="CSS copy/base.css" />
-    <link rel="stylesheet" href="CSS copy/styles.css" />
-    <script defer src="JS/script.js"></script>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script defer src="assets/js/script.js"></script>
 </head>
 
 
@@ -41,7 +41,7 @@
         
         <!-- Logo -->
         <a href="index.php" class="header-logo">
-          <img src="Video/logo.png" alt="logo">
+          <img src="assets/images/logo.png" alt="logo">
         </a>
         
         <!-- Thanh điều hướng -->
@@ -171,7 +171,7 @@
         <div class="product-card" data-brand="EGA Bike" data-color="Màu: <?php echo $cat['Màu sắc'] ?>" data-price=<?php echo $cat['Giá bán'] ?> data-delivery = "Miễn phí giao hàng, Giao hàng nhanh 4h" >
           <a href="kid_bike_1.php?id=<?php echo $cat['Mã xe'] ?>" class="product-link">
             <div class="product-image">
-              <img src="img/<?php echo $cat['Hình ảnh'] ?>" alt="Xe đạp leo núi MTB Talon 3"/>
+              <img src="assets/images/<?php echo $cat['Hình ảnh'] ?>" alt="Xe đạp leo núi MTB Talon 3"/>
             </div>
             <div class="product-brand">EGA BIKE</div>
             <div class="product-title" ><?php echo $cat['Tên xe'] ?></div>
@@ -187,11 +187,11 @@
       </div>
     </section>
   </div>
-<script src="JS/add-to-cart.js"></script>
-<script src="JS/search.js"></script>
-<script src="JS/cart.js"></script>
-<script src="JS/active.js" defer></script>
-<script src="JS/form.js"></script>
+<script src="assets/js/add-to-cart.js"></script>
+<script src="assets/js/search.js"></script>
+<script src="assets/js/cart.js"></script>
+<script src="assets/js/active.js" defer></script>
+<script src="assets/js/form.js"></script>
 </body>
 
  <!-- FOOTER -->
@@ -200,7 +200,7 @@
     <!-- Cột 1: Logo và thông tin liên hệ -->
     <div class="footer-column">
       <a href="index.php">
-        <img src="Video/logo.png" alt="EGA BIKE Logo" class="logo" />
+        <img src="assets/images/logo.png" alt="EGA BIKE Logo" class="logo" />
       </a>
       <p><i class="fa fa-map-marker"></i>Đại học Kiến Trúc, Tp.HN</p>
       <p><i class="fa fa-phone"></i> 0333666888</p>

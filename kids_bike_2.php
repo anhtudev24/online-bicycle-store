@@ -12,10 +12,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="CSS copy/reset.css" />
-    <link rel="stylesheet" href="CSS copy/base.css" />
-    <link rel="stylesheet" href="CSS copy/styles.css" />
-    <script defer src="JS/script.js"></script>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script defer src="assets/js/script.js"></script>
 </head>
 <body>
 
@@ -35,7 +35,7 @@
         
         <!-- Logo -->
         <a href="index.php" class="header-logo">
-          <img src="Video/logo.png" alt="logo">
+          <img src="assets/images/logo.png" alt="logo">
         </a>
         
         <!-- Thanh điều hướng -->
@@ -117,11 +117,11 @@
     <div class="left">
       <!-- hình ảnh thu nhỏ -->
       <div class="thumbnails">
-        <img src="Video/chubby.jpg" class="active" />
+        <img src="assets/images/chubby.jpg" class="active" />
       </div>
       <!-- hình ảnh chính -->
       <div class="main-image">
-        <img src="Video/chubby.jpg" alt="Main Image"/>
+        <img src="assets/images/chubby.jpg" alt="Main Image"/>
       </div>
     </div>
     <!-- Bên phải: Thông tin chi tiết -->
@@ -133,7 +133,7 @@
           data-price="15790000"
           data-old-price="18948000"
           data-discount="20"
-          data-image="Video/chubby.jpg">
+          data-image="assets/images/chubby.jpg">
       <h1 class="title">Xe đạp trẻ em Youth Bike Chubby</h1>
       <!-- đánh giá sao -->
       <div class="stars">
@@ -280,7 +280,7 @@
     <div class="product-card">
       <a href="kids_bike_2.php" class="product-link">
         <div class="product-image">
-          <img src="Video/xedapnaughty.webp" alt="Xe đẹp Naughty">
+          <img src="assets/images/xedapnaughty.webp" alt="Xe đẹp Naughty">
         </div>
         <div class="product-brand">EGA BIKE</div>
         <div class="product-title">Xe đạp Naughty</div>
@@ -299,7 +299,7 @@
     <div class="product-card">
       <a href="road_bike_2.php" class="product-link">
         <div class="product-image">
-          <img src="Video/allez.webp" alt="Xe đạp đường trường Allez 2021">
+          <img src="assets/images/allez.webp" alt="Xe đạp đường trường Allez 2021">
         </div>
         <div class="product-brand">EGA BIKE</div>
         <div class="product-title">Xe đạp đường trường Allez 2021</div>
@@ -318,7 +318,7 @@
     <div class="product-card">
       <a href="city_bike_3.php" class="product-link">
         <div class="product-image">
-          <img src="Video/orbea.webp" alt="Xe đạp đường trường Orbea Vector Drop">
+          <img src="assets/images/orbea.webp" alt="Xe đạp đường trường Orbea Vector Drop">
         </div>
         <div class="product-brand">EGA BIKE</div>
         <div class="product-title">Xe đạp đường trường Orbea Vector Drop</div>
@@ -335,11 +335,11 @@
 
   </div>
 </div>
-<script src="JS/add-to-cart.js"></script>
-<script src="JS/search.js"></script>
-<script src="JS/cart.js"></script>
-<script src="JS/active.js" defer></script>
-<script src="JS/form.js"></script>
+<script src="assets/js/add-to-cart.js"></script>
+<script src="assets/js/search.js"></script>
+<script src="assets/js/cart.js"></script>
+<script src="assets/js/active.js" defer></script>
+<script src="assets/js/form.js"></script>
 </body>
  <!-- FOOTER -->
 <footer class="footer">
@@ -347,7 +347,7 @@
     <!-- Cột 1: Logo và thông tin liên hệ -->
     <div class="footer-column">
       <a href="index.php">
-        <img src="Video/logo.png" alt="EGA BIKE Logo" class="logo" />
+        <img src="assets/images/logo.png" alt="EGA BIKE Logo" class="logo" />
       </a>
       <p><i class="fa fa-map-marker"></i>Đại học Kiến Trúc, Tp.HN</p>
       <p><i class="fa fa-phone"></i> 0333666888</p>

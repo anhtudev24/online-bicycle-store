@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin - Quản lý sản phẩm</title>
-    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -96,7 +96,7 @@ JOIN
                 <td><?php echo $cat['Giá bán'] ?></td>
                 <td><?php echo $cat['Số lượng'] ?></td>
                 <td>
-                  <img style="width: 90px;" src="img/<?php echo $cat['Hình ảnh'] ?>">
+                  <img style="width: 90px;" src="assets/images/<?php echo $cat['Hình ảnh'] ?>">
                   
                 </td>
                 <td><div style="display: flex;"><a href="sua.php?id=<?php echo $cat['Mã xe']; ?>" style="text-decoration: none;">✏️</a>

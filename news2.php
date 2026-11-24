@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/><!--Link icon-->
   <title>BLUESOLIS BIKE</title>
-  <link rel="stylesheet" href="CSS copy/reset.css">
-  <link rel="stylesheet" href="CSS copy/base.css">
-  <link rel="stylesheet" href="CSS copy/styles.css">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
 <?php 
@@ -25,7 +25,7 @@
         
         <!-- Logo -->
         <a href="index.php" class="header-logo">
-          <img src="Video/logo.png" alt="logo">
+          <img src="assets/images/logo.png" alt="logo">
         </a>
         
         <!-- Thanh điều hướng -->
@@ -106,7 +106,7 @@
     <div class="news-title1">
   <h4>Hướng dẫn chọn xe đạp đường trường</h4>
 </div>
-<img class="news-image" src="Video/news5.jpg" alt="Tin tức">
+<img class="news-image" src="assets/images/news5.jpg" alt="Tin tức">
 <div class="news-meta1">
   <span><i class="fa-regular fa-calendar-days"></i>📅  Thứ 3 25/06/2024</span>
   <span><i class="fa-regular fa-clock"></i>⏱ 4 phút đọc</span>
@@ -145,7 +145,7 @@
       <div class="bike-reason">
         <p>Trước khi quyết định mua xe đạp đường trường, bạn cần tự hỏi bản thân một số câu hỏi quan trọng để đảm bảo rằng đây là lựa chọn phù hợp với bạn. </p>
         <p>Đạp xe đường trường không chỉ là một hoạt động thể thao mà còn là một phong cách sống, thể hiện cá tính của người sử dụng. Đạp xe road cần sự kiên nhẫn và thười gian để luyện tập sử dụng thành thạo xe. </p>
-         <img class="toc-img" src="Video/news5.1.webp">
+         <img class="toc-img" src="assets/images/news5.1.webp">
         <p>Nếu muốn sử dụng xe đạp road bạn cần có kỹ năng lái xe tốt cùng sự cảnh giác cao để đảm bảo an toàn khi di chuyển. Xe đạp road chủ yếu dùng trên các đoạn đường nhựa bằng phẳng vì thế sẽ có nhiều phương tiện qua lại. Nếu bạn cảm thấy không thoải mái, hãy chọn một số loại hình xe đạp khác như: </p>
         <ul> 
           <li><strong> Xe đạp cho đường mòn: </strong> Thích hợp cho những ai yêu thích khám phá thiên nhiên và các con đường mòn ít người. Đây là sự kết hợp giữa đạp xe đường trường và đạp xe địa hình.</li>
@@ -163,7 +163,7 @@
         <li>Kích thước khung <strong>xe thể thao</strong> phù hợp với cơ thể sẽ giúp bạn có một tư thế lái thoải mái và giảm thiểu nguy cơ chấn thương. Xe đạp với khung quá lớn hoặc quá nhỏ sẽ gây ra mỏi mệt nhanh chóng và giảm hiệu suất lái.</li>
         <li>Để xác định kích thước khung phù hợp, bạn có thể dựa vào chiều cao của mình và các thông số kỹ thuật của nhà sản xuất hoặc nhờ sự tư vấn từ cửa hàng xe đạp uy tín. </li>
       </ul>
-      <img class="toc-img" src="Video/news5.2.webp">
+      <img class="toc-img" src="assets/images/news5.2.webp">
       <p>Hình dạng xe phù hợp</p>
       <ul>
         <li>Hình dạng và thiết kế của khung xe cũng ảnh hưởng lớn đến cảm giác lái và hiệu suất. Có nhiều loại khung như khung cổ điển (diamond frame), khung nghiêng (sloping frame)  tùy thuộc vào mục đích sử dụng và sở thích cá nhân.</li>
@@ -172,7 +172,7 @@
       <h3 class="reason-title" id="chat-luong"> Chất lượng các bộ phận xe</h3>
       <p><strong>Hệ thống truyền động:</strong>Bao gồm bộ đề, xích, và bộ đĩa, ảnh hưởng trực tiếp đến hiệu suất và trải nghiệm lái xe. Chọn các bộ phận từ các thương hiệu uy tín như Shimano, SRAM, hoặc Campagnolo để đảm bảo chất lượng và độ bền</p>
       <p><strong>Hệ thống phanh:</strong>Phanh là yếu tố an toàn quan trọng. Hãy chọn giữa phanh vành (rim brakes) và phanh đĩa (disc brakes) dựa trên nhu cầu và điều kiện đường sá. Phanh đĩa thường cung cấp hiệu suất phanh tốt hơn trong điều kiện ướt hoặc bùn.</p>
-      <img class="toc-img" src="Video/news5.3.webp">
+      <img class="toc-img" src="assets/images/news5.3.webp">
       <p><strong>Bánh xe và lốp:</strong>Bánh xe và lốp xe ảnh hưởng đến tốc độ và sự mượt mà khi di chuyển. Lốp mỏng và nhẹ sẽ giúp bạn đạt tốc độ cao hơn nhưng cần chú ý đến độ bền và khả năng chống đâm thủng.</p>
       <p><strong>Khung và vật liệu chế tạo:</strong>Vật liệu khung phổ biến bao gồm nhôm, carbon, và thép. Khung carbon nhẹ và hấp thụ rung tốt, khung nhôm bền và giá cả phải chăng, trong khi khung thép chắc chắn và êm ái.</p>
 
@@ -190,32 +190,32 @@
 
 <section class="related-posts">
   <div class="post" data-tags="xe đạp, thể thao">
-    <img src="Video/news5.jpg" alt="road bike" />
+    <img src="assets/images/news5.jpg" alt="road bike" />
     <a href="news2.php"><h3>Hướng dẫn chọn xe đạp đường trường</h3></a>
     <p>📅 Thứ 3 25/06/2024 ⏱ 4 phút đọc</p>
     <p>Đạp xe đường trường (road bike) mang lại nhiều lợi ích...</p>
   </div>
   <div class="post" data-tags="xe đạp, nhập khẩu">
-    <img src="Video/news4.jpg" alt="Merida" />
+    <img src="assets/images/news4.jpg" alt="Merida" />
     <a href="news1.php"><h3>Xe đạp Merida của nước nào?</h3></a>
     <p>📅 Thứ 3 25/06/2024 ⏱ 4 phút đọc</p>
     <p>Merida là hãng xe đạp nổi tiếng được nhiều người biết đến...</p>
   </div>
   <div class="post" data-tags="xe đạp, thể thao, địa hình">
-    <img src="Video/news3.jpg" alt="xe địa hình" />
+    <img src="assets/images/news3.jpg" alt="xe địa hình" />
     <a href="news1.php"><h3>Top 4 xe đạp thể thao giá rẻ đáng mua nhất</h3></a>
     <p>📅 Thứ 3 25/06/2024 ⏱ 7 phút đọc</p>
     <p>Việc mua một chiếc xe đạp thể thao giá rẻ...</p>
   </div>
   <div class="post" data-tags="xe đạp, vận động">
-    <img src="Video/news1.jpg" alt="tay đề lắc" />
+    <img src="assets/images/news1.jpg" alt="tay đề lắc" />
     <a href="news2.php"><h3>Cách sử dụng tay đề lắc đúng cách</h3></a>
     <p>📅 Thứ 3 25/06/2024 ⏱ 3 phút đọc</p>
     <p>Việc nắm vững kỹ thuật sử dụng tay đề lắc...</p>
   </div>
 </section>
 
-  <script src="JS/script1.js"></script>
+  <script src="assets/js/script1.js"></script>
     </div>
   </div>
    <!-- FOOTER -->
@@ -223,7 +223,7 @@
   <div class="footer-container">
     <!-- Cột 1: Logo và thông tin liên hệ -->
     <div class="footer-column">
-      <img src="Video/logo.png"  class="logo" >
+      <img src="assets/images/logo.png"  class="logo" >
       <p><i class="fa fa-map-marker"></i>Đại học Kiến Trúc, Hà Nội</p>
       <p><i class="fa fa-phone"></i> 0333666888</p>
       <p><i class="fa fa-envelope"></i> group3@hau.com</p>
@@ -262,12 +262,12 @@
     </div>
   </div>
 </footer>
-  <script src="JS/index.js"></script>
-<script src="JS/search.js"></script>
-<script src="JS/cart.js"></script>
-<script src="JS/add-to-cart.js"></script>
-<script src="JS/active.js" defer></script>
-<script src="JS/form.js"></script>
+  <script src="assets/js/index.js"></script>
+<script src="assets/js/search.js"></script>
+<script src="assets/js/cart.js"></script>
+<script src="assets/js/add-to-cart.js"></script>
+<script src="assets/js/active.js" defer></script>
+<script src="assets/js/form.js"></script>
  </form>
 </body>
 </html>

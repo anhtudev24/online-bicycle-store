@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/><!--Link icon-->
   <title>BLUESOLIS BIKE - Trang chủ</title>
-  <link rel="stylesheet" href="CSS copy/reset.css">
-  <link rel="stylesheet" href="CSS copy/base.css">
-  <link rel="stylesheet" href="CSS copy/styles.css">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
   <?php
@@ -23,7 +23,7 @@
         
         <!-- Logo -->
         <a href="index.php" class="header-logo">
-          <img src="Video/logo.png" alt="logo">
+          <img src="assets/images/logo.png" alt="logo">
         </a>
         
         <!-- Thanh điều hướng -->
@@ -93,8 +93,8 @@
   <!-- BANNER -->
   <section class="banner">
     <div class="banner-images">
-      <img src="Video/coverpage1.png" alt="Banner 1" class="active">
-      <img src="Video/coverpage2.png" alt="Banner 2" class="active1">
+      <img src="assets/images/coverpage1.png" alt="Banner 1" class="active">
+      <img src="assets/images/coverpage2.png" alt="Banner 2" class="active1">
     </div>
     <div class="arrow left" onclick="changeSlide(-1)">&#10094;</div>
     <div class="arrow right" onclick="changeSlide(1)">&#10095;</div>
@@ -102,7 +102,7 @@
 
   <!-- THÔNG BÁO MUA HÀNG -->
   <div class="notify" id="notify">
-    <img src="Video/xedap3.webp" alt="bike" class="notify-img">
+    <img src="assets/images/xedap3.webp" alt="bike" class="notify-img">
     <div>
       <p class="notify-title">Xe đạp đường trường Orbea Vector Drop</p>
       <p class="notify-desc">Khách hàng Dương Tấn Trinh tại Phú Yên vừa mua sản phẩm cách đây 32 phút</p>
@@ -141,7 +141,7 @@
     <div class="categories">
       <a href="mountain_bike.php" class="category-item">
         <div class="image-wrapper">
-          <img src="Video/moun1.png" alt="Mountain bike">
+          <img src="assets/images/moun1.png" alt="Mountain bike">
         </div>
         <h3>Xe đạp leo núi</h3>
         <p>8 sản phẩm</p>
@@ -149,7 +149,7 @@
       
       <a href="road_bike.php" class="category-item">
         <div class="image-wrapper">
-          <img src="Video/road1.png" alt="Road Bikes">
+          <img src="assets/images/road1.png" alt="Road Bikes">
         </div>
         <h3>Xe đạp đường trường</h3>
         <p>8 sản phẩm</p>
@@ -157,7 +157,7 @@
       
       <a href="city_bike.php" class="category-item">
         <div class="image-wrapper">
-          <img src="Video/city1.png" alt="Electric bikes">
+          <img src="assets/images/city1.png" alt="Electric bikes">
         </div>
         <h3>Xe đạp thành phố</h3>
         <p>6 sản phẩm</p>
@@ -165,7 +165,7 @@
       
       <a href="kid_bike.php" class="category-item">
         <div class="image-wrapper">
-          <img src="Video/kid1.png" alt="Urban bikes">
+          <img src="assets/images/kid1.png" alt="Urban bikes">
         </div>
         <h3>Xe đạp trẻ em</h3>
         <p>6 sản phẩm</p>
@@ -192,7 +192,7 @@
 
       <div class="product-card-top">
           <a href="mountain_bike_2.php">
-            <img src="Video/allez.webp" alt="Allez 2021" />
+            <img src="assets/images/allez.webp" alt="Allez 2021" />
           </a>
         <div class="product-info">
           <p class="brand">EGA BIKE</p>
@@ -213,7 +213,7 @@
     
       <div class="product-card-top">
           <a href="mountain_bike_1.php">
-            <img src="Video/scott.webp" alt="Allez 2021" />
+            <img src="assets/images/scott.webp" alt="Allez 2021" />
           </a>
         <div class="product-info">
           <p class="brand">EGA BIKE</p>
@@ -233,7 +233,7 @@
 
       <div class="product-card-top">
           <a href="road_bike_3.php">
-            <img src="Video/ruby.webp" alt="Ruby 2024" />
+            <img src="assets/images/ruby.webp" alt="Ruby 2024" />
           </a>
         <div class="product-info">
           <p class="brand">EGA BIKE</p>
@@ -254,7 +254,7 @@
 
       <div class="product-card-top">
           <a href="city_bike_3.php">
-            <img src="Video/domane.webp" alt="Allez 2021" />
+            <img src="assets/images/domane.webp" alt="Allez 2021" />
           </a>
         <div class="product-info">
           <p class="brand">EGA BIKE</p>
@@ -289,7 +289,7 @@
   <div class="bike-container">
     <!-- Hình ảnh xe -->
     <div class="bike-image">
-      <img src="Video/index1.png" alt="Xe đạp SCOTT SUB CROSS 2.0">
+      <img src="assets/images/index1.png" alt="Xe đạp SCOTT SUB CROSS 2.0">
     </div>
 
     <!-- Nội dung thông tin -->
@@ -319,14 +319,14 @@
       <div class="video-grid">
         <div class="video-item">
           <video controls>
-            <source src="Video/video1.mp4" type="video/mp4">
+            <source src="assets/videos/video1.mp4" type="video/mp4">
             Trình duyệt không hỗ trợ video.
           </video>
         </div>
 
         <div class="video-item">
           <video controls>
-            <source src="Video/video2.mp4" type="video/mp4">
+            <source src="assets/videos/video2.mp4" type="video/mp4">
             Trình duyệt không hỗ trợ video.
           </video>
         </div>
@@ -344,7 +344,7 @@
 
   <div class="inspiration-list">
     <div class="inspiration-item">
-      <img src="Video/news1.1.webp" alt="Inspiration 1">
+      <img src="assets/images/news1.1.webp" alt="Inspiration 1">
       <h3>Top 5 xe đạp thể thao chính hãng không thể bỏ qua</h3>
       <div class="inspiration-meta">
         <span>📅 16/05/2025</span>
@@ -355,7 +355,7 @@
     </div>
 
     <div class="inspiration-item">
-      <img src="Video/news2.jpg" alt="Inspiration 2">
+      <img src="assets/images/news2.jpg" alt="Inspiration 2">
       <h3>Hướng dẫn chọn xe đạp đường trường (road bike) cho người mới bắt đầu</h3>
       <div class="inspiration-meta">
         <span>📅 15/05/2025</span>
@@ -366,7 +366,7 @@
     </div>
 
     <div class="inspiration-item">
-      <img src="Video/news3.jpg" alt="Inspiration 3">
+      <img src="assets/images/news3.jpg" alt="Inspiration 3">
       <h3>Xe đạp Merida của nước nào? Chất lượng có tốt không?</h3>
       <div class="inspiration-meta">
         <span>📅 13/05/2025</span>
@@ -377,7 +377,7 @@
     </div>
 
     <div class="inspiration-item">
-      <img src="Video/news4.jpg" alt="Inspiration 4">
+      <img src="assets/images/news4.jpg" alt="Inspiration 4">
       <h3>Top 4 xe đạp thể thao giá rẻ dưới 3 triệu chính hãng không thể bỏ qua</h3>
       <div class="inspiration-meta">
         <span>📅 14/05/2025</span>
@@ -395,9 +395,9 @@
 <section class="comment">
   <div class="comment-wrapper">
     <div class="comment-images">
-      <img src="Video/comment1.png" alt="Comment 1">
-      <img src="Video/comment2.png" alt="Comment 2">
-      <img src="Video/comment3.png" alt="Comment 3">
+      <img src="assets/images/comment1.png" alt="Comment 1">
+      <img src="assets/images/comment2.png" alt="Comment 2">
+      <img src="assets/images/comment3.png" alt="Comment 3">
     </div>
     <div class="arrow left" onclick="changeCommentSlide(-1)">&#10094;</div>
     <div class="arrow right" onclick="changeCommentSlide(1)">&#10095;</div>
@@ -410,7 +410,7 @@
     <!-- Cột 1: Logo và thông tin liên hệ -->
     <div class="footer-column">
       <a href="index.php">
-        <img src="Video/logo.png" alt="EGA BIKE Logo" class="logo" />
+        <img src="assets/images/logo.png" alt="EGA BIKE Logo" class="logo" />
       </a>
       <p><i class="fa fa-map-marker"></i>Đại học Kiến Trúc, Tp.HN</p>
       <p><i class="fa fa-phone"></i> 0333666888</p>
@@ -451,12 +451,12 @@
   </div>
 </footer>
   </form>
-<script src="JS/index.js"></script>
-<script src="JS/search.js"></script>
-<script src="JS/fl.js"></script>
-<script src="JS/active.js" defer></script>
-<script src="JS/cart.js"></script>
-<script src="JS/add-to-cart.js"></script>
-<script src="JS/form.js"></script>
+<script src="assets/js/index.js"></script>
+<script src="assets/js/search.js"></script>
+<script src="assets/js/fl.js"></script>
+<script src="assets/js/active.js" defer></script>
+<script src="assets/js/cart.js"></script>
+<script src="assets/js/add-to-cart.js"></script>
+<script src="assets/js/form.js"></script>
 </body>
 </html>

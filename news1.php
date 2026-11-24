@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/><!--Link icon-->
   <title>BLUESOLIS BIKE</title>
-  <link rel="stylesheet" href="CSS copy/reset.css">
-  <link rel="stylesheet" href="CSS copy/base.css">
-  <link rel="stylesheet" href="CSS copy/styles.css">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
 
@@ -28,7 +28,7 @@
         
         <!-- Logo -->
         <a href="index.php" class="header-logo">
-          <img src="Video/logo.png" alt="logo">
+          <img src="assets/images/logo.png" alt="logo">
         </a>
         
         <!-- Thanh điều hướng -->
@@ -109,7 +109,7 @@
     <div class="news-title1">
   <h4>Top 5 xe đạp thể thao chính hãng không thể bỏ qua</h4>
 </div>
-<img class="news-image" src="Video/news1.jpg" alt="Tin tức">
+<img class="news-image" src="assets/images/news1.jpg" alt="Tin tức">
 <div class="news-meta1">
   <span><i class="fa-regular fa-calendar-days"></i>📅  Thứ 2 15/07/2024</span>
   <span><i class="fa-regular fa-clock"></i>⏱ 7 phút đọc</span>
@@ -134,7 +134,7 @@
         <li><a href="#goi-y">Những mẫu xe đạp thể thao giá rẻ dưới 3 triệu không nên bỏ qua</a></li>
       </ol>
     </div>
-      <img class="toc-img" src="Video/news1.1.webp">
+      <img class="toc-img" src="assets/images/news1.1.webp">
 
     <!-- Nội dung -->
     <div class="content">
@@ -167,19 +167,19 @@
     <div class="bike-reason">
       <h3  class="reason-title" id="khong-website"> Không có website</h3>
       <p>Các thương hiệu hay những cửa hàng xe đạp không có website chính thức có thể không đáng tin cậy. Họ có thể bán những chiếc xe với khung rẻ tiền, không nhãn mác, không đảm bảo chất lượng hay chế độ bảo hành đáng tin cậy cho khách hàng. </p>
-      <img class="toc-img" src="Video/news1.2.webp">
+      <img class="toc-img" src="assets/images/news1.2.webp">
       <h3 class="reason-title" id="khong-thong-so"> Không có bảng thông số kỹ thuật</h3>
       <p>Bảng thông số kỹ thuật cung cấp thông tin chi tiết về kích thước và hình dáng của khung xe, giúp người mua dễ dàng xác định liệu chiếc xe đó có phù hợp với cơ thể và phong cách lái của họ hay không.</p>
       <p>Nếu một chiếc xe đạp không có bảng thông số kỹ thuật, điều này cho thấy nhà sản xuất không chú trọng đến nhu cầu của người mua nghiêm túc. Các thương hiệu xe đạp uy tín luôn cung cấp thông số kỹ thuật rõ ràng để đảm bảo rằng người mua có thể đưa ra quyết định chính xác dựa trên thông tin kỹ thuật của sản phẩm.</p>
-      <img class="toc-img" src="Video/news1.3.webp">
+      <img class="toc-img" src="assets/images/news1.3.webp">
       <h3 class="reason-title"id="mau-sac"> Màu sắc không phải là tất cả</h3>
       <p>Khi mua xe đạp, người mua thường bị thu hút bởi những chiếc xe có màu sắc nổi bật và bắt mắt. Nhà sản xuất xe đạp giá rẻ thường tận dụng điều này để lôi cuốn người mua.</p>
       <p>Mặc dù màu sắc của xe đạp có thể là một yếu tố hấp dẫn, nhưng điều quan trọng hơn là chất lượng và hiệu suất của chiếc xe. Các nhà sản xuất xe đạp uy tín tập trung vào việc cung cấp sản phẩm chất lượng cao với các thành phần và thiết kế tốt, thay vì chỉ chú trọng vào màu sắc. Hãy luôn ưu tiên chất lượng và tính năng của xe đạp hơn là vẻ bề ngoài.</p>
-      <img class="toc-img" src="Video/news1.4.webp">
+      <img class="toc-img" src="assets/images/news1.4.webp">
       <h3 class="reason-title" id="phu-kien"> Phụ kiện không cần thiết</h3>
       <p>Một số xe đạp giá rẻ được trang bị các thiết kế khung xe hoặc tính năng kỳ lạ để thu hút người mua. Những tính năng này thường không thực sự cần thiết và có thể làm tăng giá thành mà không cải thiện hiệu suất của xe.</p>
       <p>Thay vì tập trung vào các phụ kiện hào nhoáng và không cần thiết, các nhà sản xuất xe đạp giá rẻ nên tập trung vào việc cung cấp chất lượng tốt nhất có thể trong phạm vi giá cả hợp lý. Điều này bao gồm việc sử dụng các vật liệu bền bỉ, thiết kế đơn giản và hiệu quả, và đảm bảo rằng các thành phần quan trọng như khung xe, bánh xe và hệ thống phanh đều đáng tin cậy và hoạt động tốt.</p>
-      <img class="toc-img" src="Video/news1.5.webp">
+      <img class="toc-img" src="assets/images/news1.5.webp">
       <h3 class="reason-title"id="banh-vien-sau"> Bánh xe có viền sâu</h3>
       <p>Bánh xe có viền sâu được thiết kế để tăng cường tính khí động học và hiệu suất, thường chỉ được tìm thấy trên các mẫu xe đạp cao cấp và đắt tiền. Chúng được làm từ vật liệu nhẹ và bền như sợi carbon.</p>
       <p> Trên các xe đạp giá rẻ, bánh xe có viền sâu thường được làm từ nhôm, chất lượng thấp. Những bánh xe này không chỉ nặng hơn mà còn có thể không bền và không mang lại hiệu suất như mong đợi. Vì vậy, hãy cẩn trọng và tránh xa những chiếc xe đạp giá rẻ có bánh xe viền sâu làm từ nhôm, vì chúng thường không đáng tin cậy và không mang lại giá trị tốt cho người sử dụng.</p>
@@ -234,39 +234,39 @@
 
 <section class="related-posts">
   <div class="post" data-tags="xe đạp, thể thao">
-    <img src="Video/news5.jpg" alt="road bike" />
+    <img src="assets/images/news5.jpg" alt="road bike" />
     <a href="news2.php"><h3>Hướng dẫn chọn xe đạp đường trường</h3></a>
     <p>📅 Thứ 3 25/06/2024 ⏱ 4 phút đọc</p>
     <p>Đạp xe đường trường (road bike) mang lại nhiều lợi ích...</p>
   </div>
   <div class="post" data-tags="xe đạp, nhập khẩu">
-    <img src="Video/news4.jpg" alt="Merida" />
+    <img src="assets/images/news4.jpg" alt="Merida" />
     <a href="news1.php"><h3>Xe đạp Merida của nước nào?</h3></a>
     <p>📅 Thứ 3 25/06/2024 ⏱ 4 phút đọc</p>
     <p>Merida là hãng xe đạp nổi tiếng được nhiều người biết đến...</p>
   </div>
   <div class="post" data-tags="xe đạp, thể thao, địa hình">
-    <img src="Video/news3.jpg" alt="xe địa hình" />
+    <img src="assets/images/news3.jpg" alt="xe địa hình" />
     <a href="news1.php"><h3>Top 4 xe đạp thể thao giá rẻ đáng mua nhất</h3></a>
     <p>📅 Thứ 3 25/06/2024 ⏱ 7 phút đọc</p>
     <p>Việc mua một chiếc xe đạp thể thao giá rẻ...</p>
   </div>
   <div class="post" data-tags="xe đạp, vận động">
-    <img src="Video/news1.jpg" alt="tay đề lắc" />
+    <img src="assets/images/news1.jpg" alt="tay đề lắc" />
     <a href="news2.php"><h3>Cách sử dụng tay đề lắc đúng cách</h3></a>
     <p>📅 Thứ 3 25/06/2024 ⏱ 3 phút đọc</p>
     <p>Việc nắm vững kỹ thuật sử dụng tay đề lắc...</p>
   </div>
 </section>
 
-  <script src="JS/script1.js"></script>
+  <script src="assets/js/script1.js"></script>
     </div>
    <!-- FOOTER -->
 <footer class="footer">
   <div class="footer-container">
     <!-- Cột 1: Logo và thông tin liên hệ -->
     <div class="footer-column">
-      <img src="Video/logo.png"  class="logo" >
+      <img src="assets/images/logo.png"  class="logo" >
       <p><i class="fa fa-map-marker"></i>Đại học Kiến Trúc, Hà Nội</p>
       <p><i class="fa fa-phone"></i> 0333666888</p>
       <p><i class="fa fa-envelope"></i> group3@hau.com</p>
@@ -305,11 +305,11 @@
     </div>
   </div>
 </footer>
-<script src="JS/active.js" defer></script>
-<script src="JS/search.js"></script>
-<script src="JS/cart.js"></script>
-<script src="JS/add-to-cart.js"></script>
-<script src="JS/form.js"></script>
+<script src="assets/js/active.js" defer></script>
+<script src="assets/js/search.js"></script>
+<script src="assets/js/cart.js"></script>
+<script src="assets/js/add-to-cart.js"></script>
+<script src="assets/js/form.js"></script>
 </form>
 </body>
 </html>

@@ -12,10 +12,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="CSS copy/reset.css" />
-    <link rel="stylesheet" href="CSS copy/base.css" />
-    <link rel="stylesheet" href="CSS copy/styles.css" />
-    <script defer src="JS/script.js"></script>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script defer src="assets/js/script.js"></script>
 </head>
 <body>
 
@@ -34,7 +34,7 @@
         
         <!-- Logo -->
         <a href="index.php" class="header-logo">
-          <img src="Video/logo.png" alt="logo">
+          <img src="assets/images/logo.png" alt="logo">
         </a>
         
         <!-- Thanh điều hướng -->
@@ -108,7 +108,7 @@
     <!-- BANNER -->
   <section class="banner-top">
     <div class="banner-top-images">
-        <img src="Video/fl1.png" alt="Banner 1" class="active">
+        <img src="assets/images/fl1.png" alt="Banner 1" class="active">
     </div>
   </section>
       <div class="countdown-box-top">
@@ -176,7 +176,7 @@
         <div class="product-card" data-brand="EGA Bike" data-color="Màu: Khác" data-price="11990000" data-delivery="Miễn phí giao hàng, Giao hàng nhanh 4h">
           <a href="city_bike_2.php" class="product-link">
             <div class="product-image">
-              <img src="Video/alight.jpg" alt="Xe đạp Touring Alight 3 DD Disc"/>
+              <img src="assets/images/alight.jpg" alt="Xe đạp Touring Alight 3 DD Disc"/>
             </div>
             <div class="product-brand">EGA BIKE</div>
             <div class="product-title">Xe đạp Touring Alight 3 DD Disc </div>
@@ -192,7 +192,7 @@
         <div class="product-card" data-brand="Thương hiệu: Khác" data-color="Màu: Khác" data-price="7990000" data-delivery="Miễn phí giao hàng, Giao hàng tiết kiệm">
           <a href="city_bike_3.php" class="product-link">
             <div class="product-image">
-              <img src="Video/escape1.jpg" alt="Xe đạp Touring Escape 1"/>
+              <img src="assets/images/escape1.jpg" alt="Xe đạp Touring Escape 1"/>
             </div>
             <div class="product-brand">KHÁC</div>
             <div class="product-title">Xe đạp Touring Escape 1</div>
@@ -209,7 +209,7 @@
         <div class="product-card" data-brand="EGA Bike" data-color="Màu: Trắng" data-price="15790000" data-delivery="Miễn phí giao hàng, Giao hàng tiết kiệm">
           <a href="kids_bike_2.php" class="product-link">
             <div class="product-image">
-              <img src="Video/chubby.jpg" alt="Xe Đạp Trẻ Em Youth BIKE Chubby 2"/>
+              <img src="assets/images/chubby.jpg" alt="Xe Đạp Trẻ Em Youth BIKE Chubby 2"/>
             </div>
             <div class="product-brand">EGA BIKE</div>
             <div class="product-title">Xe Đạp Trẻ Em Youth BIKE Chubby</div>
@@ -225,7 +225,7 @@
         <div class="product-card" data-brand="EGA Bike" data-color="Màu: Đen" data-price="11990000" data-delivery="Miễn phí giao hàng, Giao hàng nhanh 4h">
           <a href="kids_bike_1.php" class="product-link">
             <div class="product-image">
-              <img src="Video/bibo.jpg" alt="Xe Đạp Trẻ Em Youth BIKE Bibo"/>
+              <img src="assets/images/bibo.jpg" alt="Xe Đạp Trẻ Em Youth BIKE Bibo"/>
             </div>
             <div class="product-brand">EGA BIKE</div>
             <div class="product-title">Xe Đạp Trẻ Em Youth BIKE Bibo</div>
@@ -241,7 +241,7 @@
         <div class="product-card" data-brand="Thương hiệu: Khác" data-color="Màu: Khác" data-price="7790000" data-delivery=" Giao hàng nhanh 4h, Giao hàng tiết kiệm">
           <a href="mountain_bike_2.php" class="product-link">
             <div class="product-image">
-              <img src="Video/atx610.jpg" alt="Xe đạp leo núi MTB ATX 610"/>
+              <img src="assets/images/atx610.jpg" alt="Xe đạp leo núi MTB ATX 610"/>
             </div>
             <div class="product-brand">KHÁC</div>
             <div class="product-title">Xe đạp leo núi MTB ATX 610</div>
@@ -257,7 +257,7 @@
         <div class="product-card" data-brand="EGA Bike" data-color="Màu: Khác" data-price="28875000" data-delivery="Giao hàng nhanh 4h">
           <a href="mountain_bike_1.php" class="product-link">
             <div class="product-image">
-              <img src="Video/anthem.jpg" alt="Xe đạp leo núi MTB Anthem Pro"/>
+              <img src="assets/images/anthem.jpg" alt="Xe đạp leo núi MTB Anthem Pro"/>
             </div>
             <div class="product-brand">EGA BIKE</div>
             <div class="product-title">Xe đạp leo núi MTB Anthem Pro</div>
@@ -273,7 +273,7 @@
        <div class="product-card" data-brand="EGA Bike" data-color="Màu: Khác" data-price="15990000" data-delivery = "Miễn phí giao hàng, Giao hàng nhanh 4h" >
           <a href="road_bike_2.php" class="product-link">
             <div class="product-image">
-              <img src="Video/allez.webp" alt="Xe đạp Allez"/>
+              <img src="assets/images/allez.webp" alt="Xe đạp Allez"/>
             </div>
             <div class="product-brand">EGA BIKE</div>
             <div class="product-title">Xe đạp đường trường Allez 2021</div>
@@ -289,7 +289,7 @@
         <div class="product-card" data-brand="EGA Bike" data-color="Màu: Khác" data-price="19590000" data-delivery="Miễn phí giao hàng, Giao hàng nhanh 4h, Giao hàng tiết kiệm">
           <a href="road_bike_3.php" class="product-link">
             <div class="product-image">
-              <img src="Video/ruby.webp" alt="Xe đạp đường trường Ruby"/>
+              <img src="assets/images/ruby.webp" alt="Xe đạp đường trường Ruby"/>
             </div>
             <div class="product-brand">EGA BIKE</div>
             <div class="product-title">Xe đạp đường trường Ruby</div>
@@ -304,12 +304,12 @@
       </div>
     </section>
   </div>
-<script src="JS/search.js"></script>
-<script src="JS/fl.js"></script>
-<script src="JS/active.js" defer></script>
-<script src="JS/cart.js"></script>
-<script src="JS/add-to-cart.js"></script>
-<script src="JS/form.js"></script>
+<script src="assets/js/search.js"></script>
+<script src="assets/js/fl.js"></script>
+<script src="assets/js/active.js" defer></script>
+<script src="assets/js/cart.js"></script>
+<script src="assets/js/add-to-cart.js"></script>
+<script src="assets/js/form.js"></script>
 </body>
 
   <!-- FOOTER -->
@@ -318,7 +318,7 @@
     <!-- Cột 1: Logo và thông tin liên hệ -->
     <div class="footer-column">
       <a href="index.php">
-        <img src="Video/logo.png" alt="EGA BIKE Logo" class="logo" />
+        <img src="assets/images/logo.png" alt="EGA BIKE Logo" class="logo" />
       </a>
       <p><i class="fa fa-map-marker"></i>Đại học Kiến Trúc, Tp.HN</p>
       <p><i class="fa fa-phone"></i> 0333666888</p>
