@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+:root {
+  --main-color: #0077cc;
+
+  --color-one: #6ec2ee;
+  --color-two: #94cbe9;
+  --color-three:#333;
+  --color-four: #2980b9;
+  --color-five:#fbbf24;
+  --color-six: #d70018;
+  --color-se: #103075;
+  --color-ei: #292929;
+
+  --color-4: #d7eaf6;
+  --color-5: #ffe082;
+  --color-6: #faf5ee;
+  --color-7: #29762c;
+  --color-8: #fbe3be;
+  --color-9: #fcbd5e;
+  --color-10: #3caa3f;
+  --color-11:rgba(0, 0, 0, 0.3);
+
+  --color-text: #000;
+  --color-text1:#333;
+  --color-text2:#ffff;
+  --color-text3:#757575;
+  --color-text4:#1a1a1a;
+  --color-text5:#222;
+
+  --bg-1: #fff;
+  --bg-2: #6ec2ee;
+  --bg-3: #b5b5b5;
+  --bg-4: #94cbe9;
+  --bg-5: #e2dede;
+  --bg-6: #d70018;
+  --bg-7: #f9f9f9;
+  --bg-8:#0056b3;
+
+  --color-bg4:#fff;
+  --color-bg5: #fafafa;
+
+  --color-background: #f5f5f5;
+  --color-background2:rgb(217, 214, 214);
+  --color-background3:#007bff;
+  --color-breadcrumb: gray;
+
+  --main-color: #0077cc;
+  --text-color: #333;
+  --bg-light: #f9f9f9;
+  --border-color: #ddd;
+  --border-color1:#ccc;
+  
+
+  --color-shadow: rgba(0, 123, 255, 0.3);
+  --color-shadow2:rgba(0, 0, 0, 0.15);
+  --color-shadow3:rgba(0, 0, 0, 0.05);
+
+  --font: 'Segoe UI', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--font);
+  color: var(--color-text);
+}
+a {
+  text-decoration: none; /*làm mất gạch chân*/
+}
+.container {
+  width: 100%;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .contact-icon {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+
+  @keyframes contact-pulse {
+    100% {
+      width: calc(100% + 20px);
+      height: calc(100% + 15px);
+    }
+  }
+}
