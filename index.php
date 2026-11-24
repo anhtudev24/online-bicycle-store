@@ -11,7 +11,7 @@
 <body>
   <?php
       session_start();
-      require_once __DIR__ . '/nguoidung.php';
+      require_once __DIR__ . '/models/User.php';
   ?>
 
 
@@ -32,17 +32,17 @@
             <ul class="main-menu">
               <li><a href="index.php" class="homeLink">Trang chủ</a></li>
               <li>
-                <a href="bike.php">Xe đạp</a>
+                <a href="pages/bike.php">Xe đạp</a>
                 <ul class="submenu">
-                  <li><a href="mountain_bike.php">Xe đạp leo núi</a></li>
-                  <li><a href="road_bike.php">Xe đạp đường trường</a></li>
-                  <li><a href="city_bike.php">Xe đạp thành phố</a></li>
-                  <li><a href="kid_bike.php">Xe đạp trẻ em</a></li>
+                  <li><a href="pages/mountain_bike.php">Xe đạp leo núi</a></li>
+                  <li><a href="pages/road_bike.php">Xe đạp đường trường</a></li>
+                  <li><a href="pages/city_bike.php">Xe đạp thành phố</a></li>
+                  <li><a href="pages/kid_bike.php">Xe đạp trẻ em</a></li>
                 </ul>
               </li>
-              <li><a href="flashsale.php">Flash sale</a></li>
-              <li><a href="news.php">Tin tức</a></li>
-              <li><a href="contact.php">Cửa hàng</a></li>
+              <li><a href="pages/flashsale.php">Flash sale</a></li>
+              <li><a href="pages/news.php">Tin tức</a></li>
+              <li><a href="pages/contact.php">Cửa hàng</a></li>
             </ul>
           </nav>
         </div>
@@ -56,7 +56,7 @@
 
         <!-- Icon giỏ hàng và người dùng -->
         <div class="header-cart">
-          <a href="<?php echo Nguoidung::loginInfo() ? 'cart.php' : '#' ?>">
+          <a href="<?php echo Nguoidung::loginInfo() ? 'pages/cart.php' : '#' ?>">
             <i class="ri-shopping-cart-2-line"></i>
             <span class="cart-badge" id="cartCount">0</span>
           </a>
@@ -73,11 +73,11 @@
       <span style="    font-size: 14px;"><?php echo htmlspecialchars($user['Hoten']); ?></span>
     </a>
     <!-- Nút logout -->
-    <a href="logout.php" style="font-size: 14px;
+    <a href="auth/logout.php" style="font-size: 14px;
     margin-left: 17px;
     color: #74bce2;">Đăng xuất</a>
   <?php else : ?>
-    <a href="login.php">
+    <a href="auth/login.php">
       <i class="ri-user-line"></i>
       <span>Đăng nhập</span>
     </a>
@@ -139,7 +139,7 @@
   <section class="product-category">
     <h2>DANH MỤC SẢN PHẨM</h2>
     <div class="categories">
-      <a href="mountain_bike.php" class="category-item">
+      <a href="pages/mountain_bike.php" class="category-item">
         <div class="image-wrapper">
           <img src="assets/images/moun1.png" alt="Mountain bike">
         </div>
@@ -147,7 +147,7 @@
         <p>8 sản phẩm</p>
       </a>
       
-      <a href="road_bike.php" class="category-item">
+      <a href="pages/road_bike.php" class="category-item">
         <div class="image-wrapper">
           <img src="assets/images/road1.png" alt="Road Bikes">
         </div>
@@ -155,7 +155,7 @@
         <p>8 sản phẩm</p>
       </a>
       
-      <a href="city_bike.php" class="category-item">
+      <a href="pages/city_bike.php" class="category-item">
         <div class="image-wrapper">
           <img src="assets/images/city1.png" alt="Electric bikes">
         </div>
@@ -163,7 +163,7 @@
         <p>6 sản phẩm</p>
       </a>
       
-      <a href="kid_bike.php" class="category-item">
+      <a href="pages/kid_bike.php" class="category-item">
         <div class="image-wrapper">
           <img src="assets/images/kid1.png" alt="Urban bikes">
         </div>
@@ -191,7 +191,7 @@
       <!-- Mỗi sản phẩm -->
 
       <div class="product-card-top">
-          <a href="mountain_bike_2.php">
+          <a href="pages/mountain_bike_2.php">
             <img src="assets/images/allez.webp" alt="Allez 2021" />
           </a>
         <div class="product-info">
@@ -212,7 +212,7 @@
 
     
       <div class="product-card-top">
-          <a href="mountain_bike_1.php">
+          <a href="pages/mountain_bike_1.php">
             <img src="assets/images/scott.webp" alt="Allez 2021" />
           </a>
         <div class="product-info">
@@ -232,7 +232,7 @@
       </div>
 
       <div class="product-card-top">
-          <a href="road_bike_3.php">
+          <a href="pages/road_bike_3.php">
             <img src="assets/images/ruby.webp" alt="Ruby 2024" />
           </a>
         <div class="product-info">
@@ -253,7 +253,7 @@
  
 
       <div class="product-card-top">
-          <a href="city_bike_3.php">
+          <a href="pages/city_bike_3.php">
             <img src="assets/images/domane.webp" alt="Allez 2021" />
           </a>
         <div class="product-info">
@@ -276,7 +276,7 @@
 
     </div>
 
-  <a href="flashsale.php" class="view-more-btn">
+  <a href="pages/flashsale.php" class="view-more-btn">
     <span>XEM TẤT CẢ</span>
   </a>
 
@@ -306,7 +306,7 @@
         <li>Ghi đông cong, yên Selle Italia thoải mái</li>
         <li>Trang bị đầy đủ phụ kiện</li>
       </ul>
-      <a href="road_bike_2.php" class="detail-btn">XEM CHI TIẾT</a>
+      <a href="pages/road_bike_2.php" class="detail-btn">XEM CHI TIẾT</a>
 
     </div>
   </div>
@@ -339,7 +339,7 @@
   <section class="inspiration">
   <div class="inspiration-header">
     <h2>Tin tức mới nhất</h2>
-    <a href="news.php" class="see-all">XEM TẤT CẢ</a>
+    <a href="pages/news.php" class="see-all">XEM TẤT CẢ</a>
   </div>
 
   <div class="inspiration-list">
@@ -351,7 +351,7 @@
         <span>⏱ 7 phút đọc</span>
       </div>
       <p>Việc mua một chiếc xe đạp thể thao giá rẻ có thể là lựa chọn tối ưu nhưng cũng tiềm...</p>
-      <a href="news1.php" class="read-more">Đọc tiếp</a>
+      <a href="pages/news1.php" class="read-more">Đọc tiếp</a>
     </div>
 
     <div class="inspiration-item">
@@ -362,7 +362,7 @@
         <span>⏱ 4 phút đọc</span>
       </div>
       <p>Đạp xe đường trường (road bike) mang lại nhiều lợi ích cho sức khoẻ, ngày càng nhiều người chọn dòng...</p>
-      <a href="news2.php" class="read-more">Đọc tiếp</a>
+      <a href="pages/news2.php" class="read-more">Đọc tiếp</a>
     </div>
 
     <div class="inspiration-item">
@@ -373,7 +373,7 @@
         <span>⏱ 4 phút đọc</span>
       </div>
       <p>Merida là hãng xe đạp nổi tiếng được nhiều người biết đến bởi ưu điểm về thiết kế và cấu...</p>
-      <a href="news1.php" class="read-more">Đọc tiếp</a>
+      <a href="pages/news1.php" class="read-more">Đọc tiếp</a>
     </div>
 
     <div class="inspiration-item">
@@ -384,7 +384,7 @@
         <span>⏱ 7 phút đọc</span>
       </div>
       <p>Việc mua một chiếc xe đạp thể thao giá rẻ có thể là lựa chọn tối ưu nhưng cũng tiềm...</p>
-      <a href="news2.php" class="read-more">Đọc tiếp</a>
+      <a href="pages/news2.php" class="read-more">Đọc tiếp</a>
     </div>
   </div>
 </section>
